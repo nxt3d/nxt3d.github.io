@@ -10,18 +10,95 @@ document.body.appendChild(title);
 
 document.body.style.textAlign = 'center';
 
-var image = document.createElement('img');
-image.src = 'https://premmakeig.com/Gradients_1_polka_square.png';
-image.width = 500;
-image.height = 500;
-document.body.appendChild(image);
-
 var link = document.createElement('link');
 link.rel = 'stylesheet';
 link.href = 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
 document.head.appendChild(link);
 
 document.body.style.fontFamily = 'Roboto, sans-serif';
+
+var section = document.createElement('section');
+section.style.backgroundColor = 'white';
+document.body.appendChild(section);
+
+var image = document.createElement('img');
+image.src = 'https://premmakeig.com/Gradients_1_polka_square.png';
+image.style.width = '500px';
+image.style.height = '500px';
+section.appendChild(image);
+
+var subsection = document.createElement('section');
+subsection.style.marginTop = '20px';
+subsection.style.marginBottom = '20px';
+subsection.style.display = 'inline-block';
+subsection.style.width = '100%';
+subsection.style.height = '100%';
+subsection.style.backgroundColor = 'white';
+subsection.style.borderRadius = '10px';
+subsection.style.boxShadow = '0px 0px 10px rgba(0,0,0,0.5)';
+subsection.style.padding = '10px';
+subsection.style.textDecoration = 'none';
+subsection.style.textAlign = 'center';
+subsection.style.textDecoration = 'none';
+
+image.style.display = 'block';
+
+image.style.margin = 'auto';
+
+var link = document.createElement('a');
+link.href = 'https://foundation.app/@premm/gradient-0aab-polka-84188';
+link.innerHTML = 'Gradient #0aab (polka)';
+section.appendChild(link);
+
+image.style.paddingBottom = '20px';
+
+var section = document.createElement('section');
+section.style.backgroundColor = 'white';
+document.body.appendChild(section);
+
+var image = document.createElement('img');
+image.src = 'https://premmakeig.com/flowgrid.png';
+image.style.width = '500px';
+image.style.height = '500px';
+section.appendChild(image);
+
+image.style.padding = '30px';
+
+image.style.display = 'block';
+
+image.style.margin = 'auto';
+
+var link = document.createElement('a');
+link.innerHTML = 'Alternating boxes (1)';
+section.appendChild(link);
+
+var footer = document.createElement('footer');
+footer.style.height = '200px';
+document.body.appendChild(footer);
+
+var copyright = document.createElement('p');
+copyright.innerHTML = '© Premm.eth';
+footer.appendChild(copyright);
+
+footer.style.marginTop = '100px';
+
+var twitter = document.createElement('a');
+twitter.innerHTML = 'twitter: ';
+footer.appendChild(twitter);
+
+var twitter = document.createElement('a');
+twitter.href = 'https://twitter.com/nxt3d';
+twitter.innerHTML = '@nxt3d';
+footer.appendChild(twitter);
+
+var discord = document.createElement('p');
+discord.innerHTML = 'Discord: ';
+footer.appendChild(discord);
+
+var discord = document.createElement('a');
+discord.href = 'https://discord.gg/8360';
+discord.innerHTML = 'nxt3d#8360';
+footer.appendChild(discord);
 });
         </script>
     </head>
